@@ -17,12 +17,18 @@ class MainActivity : AppCompatActivity() {
         val ccp=findViewById<CountryCodePicker>(R.id.country_code_picker)
         val countryName=findViewById<TextView>(R.id.country_label)
         val countryCode=findViewById<TextView>(R.id.countrycode)
+        val et_suggestion=findViewById<TextView>(R.id.et_suggestion)
 
 
         ccp.setOnCountryChangeListener {
             countryName.text=ccp.selectedCountryName.toString()
             countryCode.text="+"+ccp.selectedCountryCode.toString()
 
+        }
+
+
+        et_suggestion.setOnClickListener{
+            
         }
     }
 }

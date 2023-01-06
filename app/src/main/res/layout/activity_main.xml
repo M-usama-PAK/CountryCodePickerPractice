@@ -76,6 +76,15 @@
             />
     </LinearLayout>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_border_round"
+        android:layout_marginHorizontal="24dp"
+        android:paddingHorizontal="24dp"
+        android:hint="Search"
+        />
+
 
 
 
